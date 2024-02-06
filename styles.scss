@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(21, 21, 21);
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 50px 0px;
+    background-color: rgb(53, 53, 53);
+    width: 90%;
+    // border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    img {
+        width: 50%;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 50%;
+        background-color: #c68400;
+        
+    }
+
+    h1 {
+        // border: 2px solid blueviolet;
+        text-align: center;
+        width: 80%;
+        font-size: 30px;
+        color: white;
+        margin: auto;
+        margin-bottom: 0px;
+    }
+    
+    p{
+        color: white;
+        // border: 2px solid rgb(43, 226, 110);
+        text-align: center;
+        margin: 0px;
+    }
+
+    .location {
+        color: #f8b42a;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        margin-top: 0px;
+    }
+
+    .skill {
+        width: 80%;
+        margin: auto;
+        margin-top: 27px;
+        margin-bottom: 27px;
+    }
+    
+    .socials_block {
+        margin-bottom: 20px;
+        .socials {
+            margin: auto;
+            margin-bottom: 15px;
+            padding: 10px 0px;
+            // border-radius: 10px;
+            width: 80%;
+            background-color: rgb(92, 92, 92);
+
+            a {
+                color: white;
+                font-weight: bolder;
+                text-decoration: none;
+            }
+        }
+
+        .socials:hover {
+            background-color: #f8b42a;
+            a {
+                color: hsl(0, 1%, 31%);
+            }
+        }
+        
+    }
+}
+
+@media (min-width:1440px) {
+    .card {
+        width: 28%;
+        height: auto;
+        border-radius: 10px;
+        margin: 10% 0%;
+    }
+}
